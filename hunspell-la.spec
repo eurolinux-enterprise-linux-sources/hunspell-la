@@ -2,7 +2,7 @@ Name: hunspell-la
 Summary: Latin hunspell dictionaries
 %define upstreamid 20110807
 Version: 0.%{upstreamid}
-Release: 5%{?dist}
+Release: 6%{?dist}
 Group: Applications/Text
 Source: http://extensions.services.openoffice.org/e-files/1141/2/dict-la_2011-08-07.oxt
 URL: http://extensions.services.openoffice.org/project/dict-la
@@ -45,6 +45,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/myspell/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.20110807-6
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 0.20110807-5
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
